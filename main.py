@@ -29,8 +29,8 @@ def move_file(file_path, target_dir, filename):
     shutil.move(file_path, os.path.join(target_dir, filename))
 
 
-# folders_list = [f'/Volumes/photo/Photos/{x}' for x in range(2020, 2025)]
-folders_list = ['/Volumes/photo/Photos/2020/08']
+folders_list = [f'/Volumes/photo/Photos/{x}' for x in range(2023, 2025)]
+# folders_list = ['/Volumes/photo/Photos/2022/12']
 source_paths = folders_list
 target_paths = folders_list
 
