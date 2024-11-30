@@ -1,0 +1,15 @@
+# incorrect
+1080 × 1142  0,09
+736 × 920  
+720 × 687
+1024 × 1000  ~=1
+1026 × 1280
+
+ratio: 1,1
+
+#correct
+4032 × 3024  wide photo
+1290 × 2796  screenshot
+
+if width < 1290  or ration < 1,1:
+...

@@ -1,0 +1,40 @@
+[project]
+requires-python = ">=3.12"
+
+[tool.ruff]
+extend-select = ["C4", "SIM", "TCH"]
+ignore = []
+show-fixes = true
+target-version = "py312"
+line-length = 120
+src = ["."]
+
+# Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default.
+select = [
+"E", # pycodestyle (`E`)
+"F",  # Pyflakes (`F`)
+"UP" # pyupgrade (`U`)
+]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
