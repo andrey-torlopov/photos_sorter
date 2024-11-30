@@ -13,7 +13,7 @@ from file_info import FileInfo
 from fix_photo_date import change_file_dates
 from unique_file_name import get_unique_filename
 
-source_path = '/Volumes/AT/_INBOX'
+source_path = '/Volumes/AT/_INBOX/Videos'
 destination_path = '/Volumes/AT/_OUTBOX'
 is_use_custom_date = False
 custom_date = '20.08.2024'
